@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans+Mono:wght@200&family=Poppins:wght@300&family=Raleway:wght@200&family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+
+   
+.container{
+   
+    min-height: 80vh;
+    background-color: azure;
+   
+}
+#navbar li a:hover{
+   color: rgb(255, 255, 255);
+}
+.container h1{
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    /* margin: 40px; */
+    padding: 40px;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5rem;
+  
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
+
+}
+
+.myInput{
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    margin: 14px 10px;
+    font-size: 17px;
+    /* border: 1px dotted teal; */
+    border-radius: 3px;
+    border: 1px dotted teal;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+.myBtn{
+ 
+    
+    cursor: pointer;
+    width: 150px;
+    /* border-radius: 30px; */
+    padding: 10px ;
+    margin: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: #712cf9;
+
+}
+.myBtn:hover{
+    background-color: rgb(0, 0, 0);
+
+
+}

@@ -1,0 +1,59 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content
+    nav#navbar 
+        ul 
+        div#logo
+            img(src="/static/img/mic1.png"  )
+            
+
+            li #[a(href="/")  Home ]
+            li #[a(href="/")  About]
+            li #[a(href="/")  Services ] 
+            li #[a(href="/")  Class Info  ]
+            li #[a(href="/contact")  Contact Us ]
+
+
+
+    section#introSection 
+        div Welcome To Hip-Hop Academy 
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2  OUR MISSION 
+        div.card1
+            h3  Dance Perfection
+                p This page is an index of articles on animal species. 
+
+
+        div.card2
+            h3  Dance the way you like 
+                p Dace are referenced in chapter three of George Orwell's novel Nineteen.
+
+        div.card3
+            h3  Expert Teaching 
+                p Eighty-Four: "Somewhere near at hand, though out of sight, there was a clear.
+
+    section#sponserSection 
+        h2 SPONSER'S
+    div#sponser
+        img(src="/static/img/logo1.png" alt="sponser image" class="spImage" )
+        img(src="/static/img/logo2.png" alt="sponser image" class="spImage" )
+        img(src="/static/img/logo3.png" alt="sponser image" class="spImage" )
+        img(src="/static/img/logo4.png" alt="sponser image" class="spImage" )
+
+    footer#footer 
+    //- | Copyright &#169; 2022. All Rights reserved.
+
+    div#iconFooter
+        img(src="/static/img/ficon.png" alt="facebook" class="vicon" )
+        img(src="/static/img/iicon.png" alt="linkedin" class="vicon" )
+        img(src="/static/img/licon.png" alt="instagram" class="vicon" )
+        img(src="/static/img/ticon.png" alt="tweeter" class="vicon" )

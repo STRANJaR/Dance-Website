@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Noto+Sans+Mono:wght@200&family=Poppins:wght@300&family=Raleway:wght@200&family=Roboto+Mono:wght@300&family=Ubuntu:wght@300&display=swap');
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Lato', sans-serif;
+
+
+}
+
+#logo{
+    display: flex;
+    color: white;
+    margin: 0 10px;
+    align-items: center;
+    height: 50px;
+}
+#logo img{
+    height: 55px;
+    filter: invert(1);
+    margin-right: 40px;
+}
+
+#navbar{
+    background-color: #712cf9;
+    padding: 15px;
+}
+#navbar ul {
+    display: flex;
+ flex-direction: row;
+ /* justify-content:center; */
+ align-items: center;
+}
+
+
+
+#navbar li a{
+text-decoration: none;
+color: rgb(253, 216, 216);
+padding: 5px;
+font-size: 1.2rem;
+
+}
+#navbar li a:hover{
+color: rgb(255, 255, 255);
+/* text-decoration:underline; */
+
+} 
+
+
+#navbar li {
+    list-style: none;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* INTRO, SPONSER, MISSION SECTION  */
+
+#introSection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.9rem;
+font-family: 'Poppins', sans-serif;
+
+
+
+top: 0;
+background: url("../static/dbg.jpg") ;
+background-size: cover;
+height: 100vh;
+width: 100%;
+
+}
+
+#introSection div.small{
+    padding-top: 7px;
+    font-size: 26px;
+    padding-bottom: 300px;
+    
+}
+#introSection div.small:hover{
+    color: #06c;
+    
+}
+
+#sponserSection{
+
+/* background-color:blanchedalmond; */
+/* height: 300px; */
+height:200px;
+max-width: 1062px;
+margin: auto;
+text-align: center;
+padding-top: 20px;
+}
+#sponserSection h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(31, 73, 211);
+    padding: 7px;
+    border-radius: 5px;
+    
+
+}
+
+
+#sponser{
+    height:152px;
+    max-width: 1062px;
+    margin: auto;
+}
+.spImage{
+    height: 72%;
+    margin: 25px;
+    
+}
+
+#missionSection{
+ height: 700px;
+ background-color: rgb(0, 7, 66);
+ padding-top: 30px;
+   
+}
+#missionSection h2{
+font-family: 'Ubuntu', sans-serif;
+ text-align: center;
+ color: white;
+ padding-top: 30px;
+ font-size: 30px;
+ /* background-color: rgb(195, 233, 233) ;  */
+}
+
+
+#missionSection p{
+    padding-top: 440px;
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+    
+}
+
+#footer{
+background-color: rgb(255, 255, 255);
+height: 120px;
+
+}
+#iconFooter{
+    
+    background-color: #292929;
+    height:60px;
+    padding-left: 540px;
+}
+.vicon{
+    height: 36px;
+    padding-left: 21px;
+    padding-top: 13px;
+}
+.vicon:hover{
+    filter: invert(1);
+    cursor: pointer;
+}
+
+
+  
+    
+    
+
+
+/* CARD SECTION  */
+
+.card1{
+    background: url('../static/perfaction2.png') no-repeat center;
+    background-color: rgb(252, 120, 120);
+    text-align: center;
+    padding: 10px;
+    height: 500px;
+    width: 27%;
+    margin: 23px 31px;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    
+
+}
+
+.card2{
+    background: url('../static/dancelike2.png') no-repeat center;
+    text-align: center;
+    background-color: rgb(183, 255, 174);
+    padding: 10px;
+    height: 500px;
+    width: 27%;
+    margin: 23px 31px;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    
+
+
+}
+
+.card3{
+    background: url('../static/teaching2.png') no-repeat center;
+    text-align: center;
+    background-color: rgb(169, 235, 255);
+    padding: 10px;
+    height: 500px;
+    width: 27%;
+    margin: 23px 31px;
+    border: 1px solid rgb(0, 0, 0);
+    display: inline-block;
+    
+
+}
+.card1 h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    
+}
+.card1 ,.card2 ,.card3{
+    box-shadow: 4px 4px 8px rgb(0, 0, 0);
+    
+
+}
+/* CARD HOVER  */
+.card1:hover{
+    box-shadow: 4px 4px 9px rgb(255, 244, 244)
+    
+}
+
+.card2:hover{
+    box-shadow: 4px 4px 9px rgb(255, 244, 244);
+    
+}
+
+.card3:hover{
+    box-shadow: 4px 4px 9px rgb(255, 244, 244);
+    
+}
+
+.card1 h3:hover{
+    color: #2e008b;
+    
+}
+
+.card2 h3:hover{
+    color: #2e008b;
+}
+
+.card3 h3:hover{
+    color: #2e008b;
+}
+
+
+
+
